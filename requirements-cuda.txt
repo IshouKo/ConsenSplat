@@ -1,0 +1,8 @@
+-r requirements.txt
+opencv-python
+plyfile
+tqdm
+joblib
+tensorboard
+git+https://github.com/graphdeco-inria/diff-gaussian-rasterization.git@dr_aa
+git+https://gitlab.inria.fr/bkerbl/simple-knn.git

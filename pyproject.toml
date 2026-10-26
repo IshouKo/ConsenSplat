@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "physics-modular-3dgs"
+version = "0.1.0"
+description = "Physics-aware modular 3DGS restoration prototype inspired by NimbusGS and RestorGS."
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "torchvision",
+  "pillow",
+  "pyyaml",
+  "numpy",
+  "opencv-python",
+  "plyfile",
+  "tqdm",
+]
+
+[tool.setuptools.packages.find]
+include = ["physics_modular_3dgs*"]
